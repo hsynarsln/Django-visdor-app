@@ -4,7 +4,7 @@
 
 {% block content %}
 
-</div>
+
 
   <!-- teacher section -->
   <section class="teacher_section ">
@@ -16,20 +16,27 @@
       </div>
       <div class="teacher_container layout_padding2">
         <div class="row">
+          {% for teacher in teachers %}
           <div class="col-md-3 col-sm-6">
             <div class="box">
               <div class="img-box">
-                <img class="" src="{% static 'images/teacher-1.jpg' %}" alt="Card image cap">
+                <img class="" src="{{teacher.image.url}}" alt="Card image cap">
               </div>
               <div class="detail-box">
                 <p>
+                  <h4>
+                    {{teacher.first_name}} {{teacher.last_name}}
+                  </h4>
+                </p>
+                <p>
                   <h5>
-                    Rose Adams
+                    {{teacher.branch}} - {{teacher.email_teacher}}
                   </h5>
                 </p>
               </div>
             </div>
           </div>
+          {% endfor %}
         </div>
       </div>
       <div class="btn-box">
@@ -42,5 +49,6 @@
 
   <!-- teacher section -->
 
+  
 
     {% endblock content %}
