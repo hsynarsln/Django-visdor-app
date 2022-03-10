@@ -31,7 +31,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/aaron-clarusway/recap-1_django/blob/main/visdor.png)
+![screenshot](Animation.gif)
 
 
 ### Built With
