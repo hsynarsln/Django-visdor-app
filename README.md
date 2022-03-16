@@ -69,7 +69,8 @@ $ git clone https://github.com/your-user-name/your-project-name
 
 ## Contact
 
+
 - Email (hsyn06arslan@gmail.com)
 - GitHub (https://github.com/hsynarsln)
 
-- Linkedin (https://www.linkedin.com/in/h%C3%BCseyin-arslan-1752b121a/)
+- Linkedin (https://www.linkedin.com/in/huseyinarsln/)
